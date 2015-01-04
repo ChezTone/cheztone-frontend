@@ -1,0 +1,13 @@
+{
+  "menu" : {
+    "home" : "Accueil",
+    "about" : "A propos",
+    "contact" : "Contact"
+  },
+  "home" : {
+    "default" : "Bien le bonjour, et bienvenue sur la nouvelle version du site."
+  },
+  "footer" : {
+    "default" : "ChezTone®"
+  }
+}
