@@ -16,16 +16,13 @@
     <!-- endbuild -->
   </head>
   <body ng-app="cheztoneFrontendApp">
-
-    <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <div ng-include="'common/menu.html'"></div>
-    <div class="container">
-      <div ng-view=""></div>
-      <div ng-include="'common/footer.html'"></div>
+    <div class="wrapper">
+      <ct-menu></ct-menu>
+      <div class="container">
+        <div ng-view=""></div>
+      </div>
     </div>
+    <div ng-include="'common/footer.html'"></div>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
@@ -49,6 +46,7 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-translate/angular-translate.js"></script>
     <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -61,6 +59,8 @@
     <script src="common/auth/authDirective.js"></script>
     <script src="common/auth/authService.js"></script>
     <script src="common/auth/authInterceptor.js"></script>
+    <script src="common/menu/menuCtrl.js"></script>
+    <script src="common/menu/menuDirective.js"></script>
     <!-- endbuild -->
   </body>
 </html>

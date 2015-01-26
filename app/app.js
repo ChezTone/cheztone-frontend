@@ -43,6 +43,12 @@ angular
           authorizedRoles : USER_ROLES.user
         }
       })
+      .when('/apache', {
+        templateUrl : 'tech/apache.html',
+        access : {
+          authorizedRoles : USER_ROLES.all
+        }
+      })
       .otherwise({
         redirectTo: '/',
         access : {

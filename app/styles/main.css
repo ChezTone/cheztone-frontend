@@ -1,16 +1,44 @@
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.footer{
+  background-color: #e7e7e7;
+  height : 3.5em;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+html,body{
+  height: 100%
+}
+body{
+  background: linear-gradient(#252519,#006666) fixed;;
 }
 
 #logo-cheztone {
-  width:4em;
-  height:2.5em;
+  width: 4em;
+  height: 2.5em;
 }
 
 .navbar-brand {
-  padding-top:3px !important;
+  padding-top: 3px !important;
+}
+
+.thumbnail-image{
+  max-height: 6em;
+}
+
+.squirrel{
+  height: 30em;
+  max-width: 25em;
+  background-image: url("images/1-SE.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 

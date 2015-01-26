@@ -2,10 +2,33 @@
   "menu" : {
     "home" : "Accueil",
     "about" : "A propos",
-    "contact" : "Contact"
+    "contact" : "Contact",
+    "shortcut" : "Menu"
+  },
+  "about" : {
+    "title" : "A Propos",
+    "default" : "Le web est en plein essor, de nouvelles techniques voient le jour régulièrement. Certains projets ont attiré mon attention, et comme je prends beaucoup de plaisir à utiliser ces solutions, je pensais que les partager serait une bonne idée.",
+    "tech1" : {
+      "title" : "Apache",
+      "detail" : "Les produits Apache permettent de faire beaucoup de choses en Open Source, du build de vos projets à la gestion des dépendances, en passant par la sécurisation de vos serveurs : un grand merci !"
+    },
+    "tech2" : {
+      "title" : "GitHub",
+      "detail" : "Gestionnaire de version révolutionnaire ! Beaucoup de projets se retrouve sur cette plateforme. Elle permet de suivre et même de contribuer à nos projets préférés."
+    },
+    "tech3" : {
+      "title" : "MongoDB",
+      "detail" : "Base de donnée NoSQL en mode document. Rapide, scalable, que demander de plus ?"
+    }
   },
   "home" : {
-    "default" : "Bien le bonjour, et bienvenue sur la nouvelle version du site."
+    "title" : "Bienvenue chez moi",
+    "default1" : "Je souhaitais vous faire par de quelques une de mes passions: j'aime beaucoup le développement d'application et les jeux vidéos.",
+    "default2" : "Pour concillier les deux, quoi de mieux que de proposer des jeux sur un site web ?",
+    "default3" : "Bon, créer un jeu, ça ne se fait pas en un claquement de doigt, mais vous pourrez suivre son évolution ici !"
+  },
+  "contact" : {
+    "default" : "à venir"
   },
   "footer" : {
     "default" : "ChezTone®"
