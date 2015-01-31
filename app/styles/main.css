@@ -24,7 +24,7 @@ body{
 #logo-cheztone {
   width: 4em;
   height: 2.5em;
-  background-image: url("/images/chezTone.gif");
+  background-image: url("../images/chezTone.gif");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -49,20 +49,20 @@ body{
 .squirrel{
   height: 30em;
   max-width: 25em;
-  background-image: url("/images/1-SE.gif");
+  background-image: url("../images/1-SE.gif");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .apache-image{
-  background-image: url("/images/apache.gif");
+  background-image: url("../images/apache.gif");
 }
 
 .git-image {
   max-width:7em;
-  background-image: url("/images/git.gif");
+  background-image: url("../images/git.gif");
 }
 
 .mongoDB-image {
-  background-image: url("/images/mongoDB.gif");
+  background-image: url("../images/mongoDB.gif");
 }
