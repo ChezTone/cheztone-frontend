@@ -57,7 +57,7 @@ angular
       });
   }).config(function($translateProvider){
     $translateProvider.useStaticFilesLoader({
-      prefix: '/i18n/',
+      prefix: 'i18n/',
       suffix: '.json'
     });
     $translateProvider.preferredLanguage('fr');

@@ -184,7 +184,7 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: '<%= yeoman.app %>/index.html',
+      html: '<%= yeoman.app %>/**/*.html',
       options: {
         dest: '<%= yeoman.dist %>',
         flow: {
@@ -306,7 +306,8 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '.htaccess',
             '*.html',
-            '{,*/}*.html',
+            '**/*.html',
+            'i18n/*.json',
             'images/{,*/}*.{webp}',
             'fonts/{,*/}*.*'
           ]

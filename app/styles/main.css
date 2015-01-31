@@ -24,6 +24,9 @@ body{
 #logo-cheztone {
   width: 4em;
   height: 2.5em;
+  background-image: url("../images/chezTone.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand {
