@@ -37,7 +37,7 @@ body{
 .squirrel{
   height: 30em;
   max-width: 25em;
-  background-image: url("images/1-SE.gif");
+  background-image: url("../images/1-SE.gif");
   background-size: 100%;
   background-repeat: no-repeat;
 }
