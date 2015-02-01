@@ -14,6 +14,10 @@
   min-height: 100%;
 }
 
+.navbar {
+  font-size: large;
+}
+
 html,body{
   height: 100%
 }
