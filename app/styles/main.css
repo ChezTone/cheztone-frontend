@@ -70,3 +70,32 @@ body{
 .mongoDB-image {
   background-image: url("../images/mongoDB.gif");
 }
+
+.angular-image{
+  background-image: url("../images/AngularJS.png");
+}
+
+.grunt-image{
+  max-width:6em;
+  background-image: url("../images/grunt.svg");
+}
+
+.bower-image{
+  max-width:6em;
+  background-image: url("../images/bower.png");
+}
+
+.jetbrains-image{
+  max-width:15em;
+  background-image: url("../images/jetbrains.png");
+}
+
+.blender-image{
+  max-width:6em;
+  background-image: url("../images/blender-logo.png");
+}
+
+.spring-image{
+  max-width:15em;
+  background-image: url("../images/spring-logo.png");
+}
