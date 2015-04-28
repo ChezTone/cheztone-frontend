@@ -3,7 +3,8 @@
     "home" : "Accueil",
     "about" : "A propos",
     "contact" : "Contact",
-    "shortcut" : "Menu"
+    "shortcut" : "Menu",
+    "game" : "Jeux"
   },
   "about" : {
     "title" : "A Propos",

@@ -78,8 +78,8 @@ module.exports = function (grunt) {
             return [
               connect.static('.tmp'),
               connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
+                  '/bower_components',
+                  connect.static('./bower_components')
               ),
               connect.static(appConfig.app)
             ];
@@ -94,8 +94,8 @@ module.exports = function (grunt) {
               connect.static('.tmp'),
               connect.static('test'),
               connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
+                  '/bower_components',
+                  connect.static('./bower_components')
               ),
               connect.static(appConfig.app)
             ];
@@ -163,7 +163,8 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     wiredep: {
       app: {
-        src: ['<%= yeoman.app %>/index.html'],
+        src: ['<%= yeoman.app %>/index.html',
+          '<%= yeoman.app %>/nuts.html'],
         ignorePath:  /\.\.\//
       }
     },
