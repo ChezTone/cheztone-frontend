@@ -4,14 +4,15 @@
     "about" : "A propos",
     "contact" : "Contact",
     "shortcut" : "Menu",
-    "game" : "Jeux"
+    "game" : "Jeux",
+    "lang" : "Langue"
   },
   "about" : {
     "title" : "A Propos",
     "default" : "Le web est en plein essor, de nouvelles techniques voient le jour régulièrement. Certains projets ont attiré mon attention, et comme je prends beaucoup de plaisir à utiliser ces solutions, je pensais que les partager serait une bonne idée.",
     "apache" : {
       "title" : "Apache",
-      "detail" : "Les produits Apache offrent un large éventail de produits Open Source, du build de vos projets à la gestion des dépendances, en passant par la sécurisation de vos serveurs : un grand merci !"
+      "detail" : "Les produits Apache offrent un large éventail de produits Open Source, du build de vos projets à la gestion des dépendances, en passant par la sécurisation de vos serveurs"
     },
     "github" : {
       "title" : "GitHub",
@@ -58,5 +59,9 @@
   },
   "footer" : {
     "default" : "ChezTone®"
+  },
+  "lang" : {
+    "french" : "Français",
+    "english" : "Anglais"
   }
 }
