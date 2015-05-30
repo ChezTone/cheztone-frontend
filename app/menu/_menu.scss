@@ -1,0 +1,39 @@
+.navbar-default {
+  border: none;
+  box-shadow:0 0 2em teal;
+
+  & .navbar-nav > .active > a {
+    background: teal !important;
+    color: #000810;
+  }
+
+  & .navbar-nav > .active > a:focus {
+    color: #000810;
+  }
+
+}
+
+.navbar {
+  font-size: large;
+}
+
+#logo-cheztone {
+  width: 4em;
+  height: 2.5em;
+  background: url("../images/chezTone.gif") no-repeat;
+  background-size: 100%;
+}
+
+.navbar-brand {
+  padding-top: 3px !important;
+}
+
+.lang {
+  padding-right: 1em;
+}
+
+.nav > li {
+  & > a:hover{
+    cursor: pointer;
+  }
+}

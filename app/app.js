@@ -43,6 +43,12 @@ angular
                     authorizedRoles : USER_ROLES.user
                 }
             })
+            .when('/game', {
+                templateUrl: 'game/game.html',
+                access : {
+                    authorizedRoles : USER_ROLES.user
+                }
+            })
             .otherwise({
                 redirectTo: '/',
                 access : {

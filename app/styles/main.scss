@@ -1,54 +1,48 @@
-/* Custom page footer */
+@import "../menu/menu";
+@import "../about/about";
+
 .footer {
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
   background-color: #e7e7e7;
   height : 3.5em;
+  bottom : 0;
 }
 
-.wrapper {
-  min-height: 100%;
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: arial, sans-serif;
+  font-size: small;
+  color: #666;
+  overflow: hidden;
 }
 
-.navbar {
-  font-size: large;
-}
-
-html,body{
-  height: 100%
-}
 body{
   background: linear-gradient(#252519,#006666) fixed;
-  overflow-x: hidden;
-}
+  overflow-y: scroll;
 
-#logo-cheztone {
-  width: 4em;
-  height: 2.5em;
-  background: url("../images/chezTone.gif") no-repeat;
-  background-size: 100%;
-}
+  &::-webkit-scrollbar{
+    border:1px gray solid;
+    border-radius:10px;
+    width : 0.5em;
+    box-shadow:0 0 6px gray inset;
+  }
 
-.navbar-brand {
-  padding-top: 3px !important;
-}
-
-.thumbnail > .thumbnail-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.thumbnail-image{
-  height: 6em;
-  max-width: 20em;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.caption {
-  min-height: 12em;
+  &::-webkit-scrollbar-thumb{
+    background-color:#004444;
+    border-radius:10px;
+  }
+  &::-webkit-scrollbar-thumb:hover{
+    background-color:#219161;
+    border:1px solid #333333;
+  }
+  &::-webkit-scrollbar-thumb:active{
+    background-color:#0480be;
+    border:1px solid #333333;
+  }
 }
 
 .squirrel{
@@ -58,54 +52,7 @@ body{
   background-size: 100%;
 }
 
-.apache-image{
-  background-image: url("../images/apache.gif");
+.container {
+  height:auto !important; /* real browsers */
+  min-height: 90%;
 }
-
-.git-image {
-  max-width:7em;
-  background-image: url("../images/git.gif");
-}
-
-.mongoDB-image {
-  background-image: url("../images/mongoDB.gif");
-}
-
-.angular-image{
-  background-image: url("../images/AngularJS.png");
-}
-
-.grunt-image{
-  max-width:6em;
-  background-image: url("../images/grunt.svg");
-}
-
-.bower-image{
-  max-width:6em;
-  background-image: url("../images/bower.png");
-}
-
-.jetbrains-image{
-  max-width:15em;
-  background-image: url("../images/jetbrains.png");
-}
-
-.blender-image{
-  max-width:6em;
-  background-image: url("../images/blender-logo.png");
-}
-
-.spring-image{
-  max-width:15em;
-  background-image: url("../images/spring-logo.png");
-}
-
-.lang {
-  padding-right: 1em;
-}
-
-.nav > li > a:hover{
-  cursor: pointer;
-}
-
-

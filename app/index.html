@@ -16,12 +16,10 @@
     <!-- endbuild -->
   </head>
   <body ng-app="cheztoneFrontendApp">
-    <div class="wrapper">
       <ct-menu></ct-menu>
       <div class="container">
         <div ng-view=""></div>
       </div>
-    </div>
     <div ng-include="'common/footer.html'"></div>
 
     <!-- build:js(.) scripts/oldieshim.js -->
@@ -60,10 +58,8 @@
     <script src="common/auth/authDirective.js"></script>
     <script src="common/auth/authService.js"></script>
     <script src="common/auth/authInterceptor.js"></script>
-    <script src="common/menu/menuCtrl.js"></script>
-    <script src="common/menu/menuDirective.js"></script>
-    <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/about.js"></script>
+    <script src="menu/menuCtrl.js"></script>
+    <script src="menu/menuDirective.js"></script>
     <!-- endbuild -->
   </body>
 </html>

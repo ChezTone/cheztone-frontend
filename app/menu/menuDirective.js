@@ -6,7 +6,7 @@
 angular.module('ctCommons').directive('ctMenu',function($location){
   return {
     restrict : 'E',
-    templateUrl : 'common/menu/menu.html',
+    templateUrl : 'menu/menu.html',
     link : function(scope,elements) {
 
       function updateActive(){

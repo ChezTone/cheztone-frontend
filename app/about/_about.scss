@@ -1,0 +1,58 @@
+.thumbnail > .thumbnail-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbnail-image{
+  height: 6em;
+  max-width: 20em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.caption {
+  min-height: 12em;
+}
+
+.apache-image{
+  background-image: url("../images/apache.gif");
+}
+
+.git-image {
+  max-width:7em;
+  background-image: url("../images/git.gif");
+}
+
+.mongoDB-image {
+  background-image: url("../images/mongoDB.gif");
+}
+
+.angular-image{
+  background-image: url("../images/AngularJS.png");
+}
+
+.grunt-image{
+  max-width:6em;
+  background-image: url("../images/grunt.svg");
+}
+
+.bower-image{
+  max-width:6em;
+  background-image: url("../images/bower.png");
+}
+
+.jetbrains-image{
+  max-width:15em;
+  background-image: url("../images/jetbrains.png");
+}
+
+.blender-image{
+  max-width:6em;
+  background-image: url("../images/blender-logo.png");
+}
+
+.spring-image{
+  max-width:15em;
+  background-image: url("../images/spring-logo.png");
+}
