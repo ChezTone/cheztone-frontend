@@ -1,4 +1,4 @@
-# cheztone-frontend
+# cheztone-frontend [![Build Status](https://travis-ci.org/ChezTone/cheztone-frontend.svg?branch=master)](https://travis-ci.org/ChezTone/cheztone-frontend)
 
 This project is a show room
 
