@@ -27,6 +27,8 @@
     "grunt-usemin": "*",
     "grunt-wiredep": "*",
     "jshint-stylish": "*",
+    "karma" : "*",
+    "jasmine-core" : "*",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
     "load-grunt-tasks": "*",
