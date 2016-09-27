@@ -1,5 +1,7 @@
-sudo: false
+sudo: requiered
 language: node_js
+services:
+   - docker
 node_js:
    - '5'
    - '5.1'
@@ -13,3 +15,10 @@ before_script:
   - 'bower install'
   - 'gem install sass'
   - 'gem install compass'
+before_install:
+  - docker build -t cheztone/cheztone-frontend .
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+    docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+    docker push USER/REPO;
+    fi
