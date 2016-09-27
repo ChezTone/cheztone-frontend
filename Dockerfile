@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 #get sources
-COPY dist/* /var/temp/html
+COPY $HOME/cheztone-frontend/dist/* /var/temp/html
 
 EXPOSE 80
 
