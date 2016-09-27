@@ -9,9 +9,8 @@ before_script:
   - 'bower install'
   - 'gem install sass'
   - 'gem install compass'
-after_script:
-  - docker build -t cheztone/cheztone-frontend .
 after_success:
+  - - docker build -t cheztone/cheztone-frontend .
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" $DOCKER_REPOSITORY;
     docker push cheztone/cheztone-frontend;
