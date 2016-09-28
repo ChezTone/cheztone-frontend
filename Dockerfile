@@ -3,7 +3,6 @@ FROM debian:jessie
 RUN apt-get update && apt-get install -y \
     apache2 \
   && rm -rf /var/lib/apt/lists/*
-RUN ls ./
 #get sources
 COPY ./dist/* /var/temp/html
 

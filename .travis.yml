@@ -9,6 +9,8 @@ before_script:
   - 'bower install'
   - 'gem install sass'
   - 'gem install compass'
+deploy:
+  skip_cleanup: true
 after_script:
   - docker build -t cheztone/cheztone-frontend .
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
