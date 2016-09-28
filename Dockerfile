@@ -3,6 +3,6 @@ FROM nginx
 RUN rm /etc/nginx/conf.d/*
 COPY ./nginx.conf /etc/nginx/conf.d/
 #copy generated files
-COPY ./dist/* /var/www/
+COPY ./dist/ /var/www/
 
 EXPOSE 80
