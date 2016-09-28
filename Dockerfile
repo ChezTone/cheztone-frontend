@@ -5,4 +5,3 @@ COPY ./nginx.conf /etc/nginx/conf.d/
 #copy generated files
 COPY ./dist/ /var/www/
 
-EXPOSE 80
